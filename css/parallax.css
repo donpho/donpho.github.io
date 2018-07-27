@@ -1,0 +1,19 @@
+/*STEP 3*/
+[data-parallax]{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+/*STEP 4
+PARALLAX CHILDREN*/
+[data-parallax] > *{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    left: 25%;
+    top: 25%;
+    border: 1px solid #000000;
+    background: rgba(255,0,0,.25);
+}
+/* STEP 5 IN JS */
