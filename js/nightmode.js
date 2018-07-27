@@ -7,6 +7,3 @@
     };
     if (userHour < 7 || userHour > 21) nightmode();
 })();
-
-
-
